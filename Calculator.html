@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="Calculator.css">
+</head>
+<body>
+
+	<div id = "calculator" style = "width:500px; cursor:pointer">
+		<div class = "row" id = info>
+		</div>
+		<div class = "row" id = "answer">
+			0
+		</div>
+		<div>
+
+		<script src="Calculator.js"></script>
+			<div class = "row">
+				<div class = "input" id = "1" onclick="myFunction(1);">
+				1
+				</div>
+				<div class = "input" id = "2" onclick = "myFunction(2);" >
+				2
+				</div>
+				<div class = "input" id = "3" onclick = "myFunction(3);">
+				3
+				</div>
+				<div class = "input" id = "4" onclick = "myFunction(4);">
+				4
+				</div>
+				<div class = "input" id = "5" onclick = "myFunction(5);">
+				5
+				</div>
+			</div>
+			<div class = "row">
+				<div class = "input" id = "6" onclick = "myFunction(6);">
+				6
+				</div>
+				<div class = "input" id = "7" onclick = "myFunction(7);">
+				7
+				</div>
+				<div class = "input" id = "8" onclick = "myFunction(8);">
+				8
+				</div>
+				<div class = "input" id = "9" onclick = "myFunction(9);">
+				9
+				</div>
+				<div class = "input" id = "0" onclick = "myFunction(0);">
+				0
+				</div>
+			</div>
+		</div>
+		<div class = "row">
+			<div class = "input" id = "+" onclick = "myFunction('+')">
+				+
+			</div>
+			<div class = "input" id = "-" onclick = "myFunction('-')">
+				-
+			</div>
+			<div class = "input" id = "*" onclick = "myFunction('*')">
+				&times;
+			</div>
+			<div class = "input" id = "/" onclick = "myFunction('/')">
+				&divide;
+			</div>
+			<div class = "input" id = "=" onclick = "equals()">
+				=
+			</div>
+		</div>
+		<div class = "row">
+			<div class = "input" id = "EXP" onclick = "exp()">
+				e<sup>x</sup>
+			</div>
+			<div class = "input" id = "LN" onclick = "ln()">
+				ln(x)
+			</div>
+			<div class = "input long" id = "ANS" onclick = "myFunction('ANS')">
+				ANS
+			</div>
+			<div class = "input" id = "CE" onclick = "clear_data()">
+				CE
+			</div>
+		</div>
+	</div>
+</body>
+</html>
